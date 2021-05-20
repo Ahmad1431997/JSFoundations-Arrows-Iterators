@@ -51,9 +51,7 @@ const hottestDays = (temperatures, threshhold) =>temperatures.filter((temp)=>tem
  * hint: you can combine
  *       all previous functions
  *******************************************/
-const logHottestDays = function (temperatures, threshhold) {
-    
-};
+const logHottestDays = (temperatures, threshhold) => logger(toCelsius(hottestDays(temperatures, threshhold))); 
 
 // const logHottestDays = function (temperatures, threshhold) {
 //   temperatures
